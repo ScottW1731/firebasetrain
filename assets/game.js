@@ -1,3 +1,6 @@
+$( document ).ready(function() {
+
+
 // Initialize Firebase
 var config = {
     apiKey: "AIzaSyAaMaP7NiyLupDich-gzA-LWQF08HUlde0",
@@ -20,5 +23,4 @@ var config = {
   var frequency = "";
 
 
-  
-
+});
