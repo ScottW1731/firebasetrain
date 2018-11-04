@@ -8,3 +8,17 @@ var config = {
     messagingSenderId: "177525492048"
   };
   firebase.initializeApp(config);
+
+
+  var dataRef = firebase.database();
+
+
+  // Initial Values
+  var trainname = "";
+  var destination = "";
+  var arrivaltime = 0;
+  var frequency = "";
+
+
+  
+
